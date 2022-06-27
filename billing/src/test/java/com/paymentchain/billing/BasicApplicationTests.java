@@ -2,6 +2,7 @@ package com.paymentchain.billing;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.postgresql.translation.messages_bg;	
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -11,7 +12,7 @@ public class BasicApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		String meessage = "Hola de nuevo alcambio de la prueba test DevOps";
+		tring meessage = "Hola de nuevo alcambio de la prueba test DevOps";
 		Assert.assertNontNull(meessage);
 	}
 
